@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      a {
+        margin-left: 5px;
+        margin-left: 5px;
+      }
+
+      .back-button, .next-button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .stretch-button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: pading 0.15s;
+      }
+      .stretch-button:hover {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .shadow-button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: marging 0.15s, box-shadow;
+      }
+      .shadow-button:active {
+        margin-top: 5px;
+        margin-left: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .one-button, .two-button, .three-button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 10px;
+        transition: background-color 0.15s, color 0.15, border 0.15s;
+      }
+      .one-button:hover, .two-button:hover, .three-button:hover {
+        background-color: white;
+        color: green;
+        border: green;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <button class="back-button">Back</button>
+      <a href="">1</a>
+      <a href="">2</a>
+      <a href="">3</a>
+      <a href="">4</a>
+      <a href="">5</a>
+      <button class="next-button">Next</button>
+    </p>
+    <button class="stretch-button">Stretch</button>
+    <button class="shadow-button">Shadow</button>
+    <p>
+      <button class="one-button">One</button>
+      <button class="two-button">Two</button>
+      <button class="three-button">Three</button>
+    </p>
+  </body>
+</html>
